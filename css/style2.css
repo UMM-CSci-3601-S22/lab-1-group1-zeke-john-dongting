@@ -6,9 +6,16 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 */
 
+:root {
+  --background-color: #A7A2A9;
+  --text-color: #08090A;
+  --second-background: #F4F7F5;
+  --border-color: #575A5E;
+}
+
 body {
   padding: 30px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 #style-selector {
@@ -17,27 +24,31 @@ body {
   position: fixed;
 }
 
-#style-selector ul {
-  list-style-type: none;
+ul {
   margin: 0;
-  background-color: rgb(0, 0, 255);
-  color: #ffffff;
+  background-color: var(--second-background);
+}
+
+li {
+  padding: 10px;
+  margin: 0;
+}
+
+li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+li a:visited {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+#style-selector ul{
+  list-style-type: none;
 }
 
 #style-selector li {
   display: inline-block;
   text-align: center;
-  padding: 10px;
-  margin: 0;
 }
-
-#style-selector li a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#style-selector li a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-
