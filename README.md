@@ -66,6 +66,7 @@ To view your website on your local computer,
 you should be able to simply open the `index.html` file in your
 browser of choice. (In most cases, 'double clicking' the file should do this. In Visual Studio Code,
 you can right click on the file, choose "Copy Path", and paste that into the browser's URL bar.)
+
 ### Our Team's GitHub Pages URL
 
 <https://umm-csci-3601-s22.github.io/lab-1-group1-zeke-john-dongting/>
