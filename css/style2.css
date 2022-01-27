@@ -10,3 +10,34 @@ body {
   padding: 30px;
   background-color: #ffffff;
 }
+
+#style-selector {
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+#style-selector ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: rgb(0, 0, 255);
+  color: #ffffff;
+}
+
+#style-selector li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+#style-selector li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#style-selector li a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
