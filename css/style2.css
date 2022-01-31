@@ -6,8 +6,12 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 */
 
+/*
+Define the color pallet of the page in one place,
+so that it can be referenced below by name and purpose
+*/
 :root {
-  --background-color: #A7A2A9;
+  --background: #A7A2A9;
   --text-color: #08090A;
   --second-background: #F4F7F5;
   --border-color: #575A5E;
@@ -17,7 +21,7 @@ use float to make something locate itself on the right or left
 
 body {
   padding: 30px;
-  background-color: var(--background-color);
+  background-color: var(--background);
 }
 
 #style-selector {
@@ -61,6 +65,7 @@ li a:visited {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .cloud{
@@ -69,4 +74,11 @@ li a:visited {
 
 .local{
   list-style-type: "\1F4BB";
+}
+
+div, ul{
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 8px;
+  background-image: radial-gradient(var(--second-background), var(--background), var(--second-background));
 }
