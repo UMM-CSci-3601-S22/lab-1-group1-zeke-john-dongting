@@ -62,3 +62,11 @@ li a:visited {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.cloud{
+  list-style-type: "\2601";
+}
+
+.local{
+  list-style-type: "\1F4BB";
+}
