@@ -35,12 +35,12 @@ li {
 }
 
 li a {
-  color: var(--text-color);
+  color: blue;
   text-decoration: none;
 }
 
 li a:visited {
-  color: var(--text-color);
+  color: var(--border-color);
   text-decoration: none;
 }
 
