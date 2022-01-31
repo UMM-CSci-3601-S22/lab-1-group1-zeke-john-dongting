@@ -11,6 +11,8 @@ use float to make something locate itself on the right or left
   --text-color: #08090A;
   --second-background: #F4F7F5;
   --border-color: #575A5E;
+  --link-color-main: #0000ff;
+  --link-color-visited: #6000a0;
 }
 
 body {
@@ -35,11 +37,11 @@ li {
 }
 
 li a {
-  color: blue;
+  color: var(--link-color-main);
 }
 
 li a:visited {
-  color: var(--border-color);
+  color: var(--link-color-visited);
 }
 
 #style-selector ul{
